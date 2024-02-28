@@ -2,7 +2,7 @@ import unittest
 from fancy_calcy.triangle import calculate_hypotenuse
 
 
-class TestOperations(unittest.TestCase):
+class TestTriangle(unittest.TestCase):
     def test_calculate_hypotenuse(self):
         # Test with positive base and height
         self.assertAlmostEqual(calculate_hypotenuse(3, 4), 5.0)

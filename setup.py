@@ -16,7 +16,7 @@ REQUIRES_PYTHON = ">=3.9.0"
 
 # Load the package's verison file and its content.
 ROOT_DIR = Path(__file__).resolve().parent
-PACKAGE_DIR = ROOT_DIR / 'fancy-calcy'
+PACKAGE_DIR = ROOT_DIR / 'fancy_calcy'
 with open(PACKAGE_DIR / "__version__.py") as f:
     version = f.readlines()[-1].split()[-1].strip("\"'")
 

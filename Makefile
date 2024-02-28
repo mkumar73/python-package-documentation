@@ -5,9 +5,7 @@
 PACKAGE_NAME := fancy_calcy
 PYTHON := python3
 PIP := pip
-PYTEST := pytest
 PYLINT := pylint
-PIPENV := pipenv
 MAKE := make
 
 # Define targets
@@ -56,8 +54,8 @@ install-dev:
 
 .PHONY: test
 test:
-	mkdir ./test_folder/
-	$(PYTEST) .
+	$(PYTHON) -m unittest discover tests -v
+	@echo "Unit tests passed!"
 
 .PHONY: lint
 lint:

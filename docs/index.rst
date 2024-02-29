@@ -6,6 +6,45 @@
 Welcome to fancy_calcy's documentation!
 =======================================
 
+.. mdinclude:: ../README.md
+
+
+.. note::
+
+   The project aims to provide step by step guide to include Sphinx documentation for a Python package.
+
+
+.. toctree::
+   :name: Getting Started
+   :caption: Getting Started
+   :maxdepth: 1
+   :hidden:
+
+   installation
+
+.. toctree::
+   :name: API Docs
+   :caption: API Docs
+   :maxdepth: 1
+   :hidden:
+
+ 
+   api/basics/index
+   api/advanced/index
+   api/triangle/index
+  
+
+
+.. toctree::
+   :name: Community
+   :caption: Community
+   :maxdepth: 1
+   :hidden:
+
+   codeofconduct
+   about
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

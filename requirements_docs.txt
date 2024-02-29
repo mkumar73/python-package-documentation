@@ -10,3 +10,4 @@ sphinx-togglebutton
 sphinx-book-theme
 pandoc
 pydata-sphinx-theme
+sphinx-rtd-theme

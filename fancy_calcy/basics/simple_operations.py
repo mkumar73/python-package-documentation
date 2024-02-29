@@ -23,8 +23,6 @@ class BasicOperations:
 
     See Also
     --------
-    Link a function from another module
-
     :func:`fancy_calcy.triangle.calculate_hypotenuse`
 
 

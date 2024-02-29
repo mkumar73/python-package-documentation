@@ -19,6 +19,12 @@ class BasicOperations:
     AssertionError
         If `num1` or `num2` is not a number.
 
+    See Also
+    --------
+    Link a function from another module
+
+    :func:`fancy_calcy.triangle.calculate_hypotenuse()`
+
     Examples
     --------
     >>> from fancy_calcy.basics import BasicOperations

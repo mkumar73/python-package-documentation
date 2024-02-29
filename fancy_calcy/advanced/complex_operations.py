@@ -7,6 +7,19 @@ class ScientificFunctions:
     """
     A class that provides various scientific functions.
 
+    Notes
+    -----
+
+    Just illustrating how LaTeX can be added in the Python docstrings.
+
+    - Factorial: $$n! = \prod_{i=1}^{n} i$$
+    - Power: $$x^y$$
+    - Log: $$\log_{10}(x)$$
+
+    See Also
+    --------
+    :class:`fancy_calcy.basics.BasicOperations`
+
     Examples
     --------
     >>> sf = ScientificFunctions()

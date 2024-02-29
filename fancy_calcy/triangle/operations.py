@@ -24,6 +24,19 @@ def calculate_hypotenuse(base, height):
     ValueError
         If base or height is not a positive number.
 
+    Notes
+    -----
+
+    We utilize the Pythagorean theorem to calculate the hypotenuse:
+
+        $$c = \sqrt{a^2 + b^2}$$ 
+
+    where
+        * `c` is the hypotenuse
+        * `a` and `b` are the base and height of the triangle, respectively.
+
+
+
     Examples
     --------
     >>> from fancy_calcy.triangle import calculate_hypotenuse

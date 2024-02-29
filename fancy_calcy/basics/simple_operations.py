@@ -43,6 +43,14 @@ class BasicOperations:
         assert isinstance(self.num2, (int, float)), "num2 must be a number"
 
     def add(self):
+        """
+        Add two numbers.
+
+        Returns
+        -------
+        float
+            The result of addition.
+        """
         return self.num1 + self.num2
 
     def subtract(self):

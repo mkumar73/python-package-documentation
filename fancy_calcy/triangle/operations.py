@@ -7,6 +7,7 @@ def calculate_hypotenuse(base, height):
     """
     Calculate the hypotenuse of a right triangle.
 
+
     Parameters
     ----------
     base : float
@@ -14,22 +15,27 @@ def calculate_hypotenuse(base, height):
     height : float
         The height of the triangle.
 
+
     Returns
     -------
     float
         The length of the hypotenuse.
+
 
     Raises
     ------
     ValueError
         If base or height is not a positive number.
 
+
     Notes
     -----
 
     We utilize the Pythagorean theorem to calculate the hypotenuse:
 
-        $$c = \sqrt{a^2 + b^2}$$ 
+    .. math::
+
+        a^2 + b^2 = c^2
 
     where
         * `c` is the hypotenuse

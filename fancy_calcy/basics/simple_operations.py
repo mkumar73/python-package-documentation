@@ -14,16 +14,19 @@ class BasicOperations:
     num2 : int or float
         The second number.
 
+
     Raises
     ------
     AssertionError
         If `num1` or `num2` is not a number.
 
+
     See Also
     --------
     Link a function from another module
 
-    :func:`fancy_calcy.triangle.calculate_hypotenuse()`
+    :func:`fancy_calcy.triangle.calculate_hypotenuse`
+
 
     Examples
     --------

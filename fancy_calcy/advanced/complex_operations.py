@@ -7,18 +7,28 @@ class ScientificFunctions:
     """
     A class that provides various scientific functions.
 
+
     Notes
     -----
 
     Just illustrating how LaTeX can be added in the Python docstrings.
 
-    - Factorial: $$n! = \prod_{i=1}^{n} i$$
-    - Power: $$x^y$$
-    - Log: $$\log_{10}(x)$$
+    - Factorial: :math:`n! = \prod_{i=1}^{n} i
+    - Power: :math:`x^y`
+    - Log: 
+    .. math::
+       :nowrap:
+
+       \begin{log}
+       y = \log_{10}(x)
+       \end{log}
+
+
 
     See Also
     --------
     :class:`fancy_calcy.basics.BasicOperations`
+
 
     Examples
     --------
@@ -81,8 +91,8 @@ class ScientificFunctions:
         exponent : float
             The exponent.
 
-        Returns:
-        --------
+        Returns
+        -------
         float
             The result of raising the base to the exponent.
         """
@@ -136,13 +146,13 @@ class ScientificFunctions:
         """
         Calculate the cosine of an angle in degrees.
 
-        Parameters:
-        -----------
+        Parameters
+        ----------
         angle : float
             The angle in degrees.
 
-        Returns:
-        --------
+        Returns
+        -------
         float
             The cosine of the given angle.
         """

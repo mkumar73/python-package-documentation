@@ -37,7 +37,6 @@ extensions = [
     "sphinx.ext.coverage",
     "sphinx.ext.mathjax",
     "sphinx.ext.ifconfig",
-    'sphinx_autodoc_typehints',
     "sphinx_copybutton",
     "sphinx_togglebutton",
     "nbsphinx",

@@ -2,11 +2,12 @@
 
 Please follow the steps below for installing `fancy_calcy`
 
-Install from the source
+Install from the source:
 
-    `cd fancy_calcy`
-    `pip install -e .`
-
+```bash
+    cd fancy_calcy
+    pip install -e .
+```
 
 Note: Make sure you in the same directory where `setup.py` file resides.
 

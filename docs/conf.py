@@ -37,16 +37,16 @@ extensions = [
     "sphinx.ext.coverage",
     "sphinx.ext.mathjax",
     "sphinx.ext.ifconfig",
-    "sphinx-copybutton",
-    "sphinx-togglebutton",
+    "sphinx_copybutton",
+    "sphinx_togglebutton",
     "nbsphinx",
     'numpydoc',
     "IPython.sphinxext.ipython_console_highlighting",
     "IPython.sphinxext.ipython_directive",
-    "myst-parser",
+    "myst_parser",
     "mdinclude",  # custom module
-    "sphinx-rtd-theme",
-    "sphinx-autodoc-typehints",
+    "sphinx_rtd_theme",
+    "sphinx_autodoc_typehints",
 ]
 
 templates_path = ['_templates']

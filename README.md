@@ -1,26 +1,24 @@
 # Introduction
 
-This repository contains step by step guide to create and host Python package documentation using Sphinx and Readthedocs.
+In this post, I will provide you with a comprehensive step-by-step guide on how to create and host documentation for your Python package using Sphinx and Readthedocs. The topics covered in this guide include:
 
-Topics covered in this guide are:
+- Setting up Sphinx
+- Configuring Sphinx extensions
+- Guide to document Python package
+- Create documentation modules
+- Testing documentation locally
+- Setting up Readthedocs
+- Automatic deploy documents
 
-- [Setting up Sphinx](#setting-sphinx)
-- [Configuring Sphinx extensions](#configuring-sphinx-extensions)
-- [Guide to document Python package](#guide-to-document-python-package)
-- [Create documentation modules](#create-documentation-modules)
-- [Testing documentation locally](#testing-documentation-locally)
-- [Setting up Readthedocs](#setting-up-readthedocs)
-- [Automatic deploy documents](#automate-deployment)
 
-I expect that you already have a Python package in a repository for which you would like to added documentation. If not, you could use the `fancy_calcy` [repository](https://github.com/mkumar73/python-package-documentation) to follow along. 
+Assuming that you already have a Python package in a repository that you want to add documentation to. If not, you can use the
+**fancy_calcy** [repository](https://github.com/mkumar73/python-package-documentation) as a reference to follow along.
 
-**NOTE**: Please note, the code available in the package is only for the demonstration purpose.
-
-Have said that, let's get started.
+Please keep in mind that the code available in the package is intended solely for demonstration purposes. With that said, let's begin.
 
 -----
 
-## [Setting up Sphinx](#setting-sphinx)
+## Setting up Sphinx
 
 Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects. It is a widely used tool for documenting Python packages. To install Sphinx, run the following command:
 
@@ -33,8 +31,7 @@ pip install sphinx==6.2.1
 In this guide, we will be using `sphinx==6.2.1`
 
 
-### Create docs directory
-Use the following command to create the `docs` directory in the root of your project:
+Let's create a `docs` directory in the root of your project. This is where we will store all the documentation files. Use the following command to create the `docs` directory in the root of your project:
 
 ```bash
 sphinx-quickstart docs
@@ -79,7 +76,7 @@ We will make changes to the `conf.py` and `index.rst` files in the next sections
 
 -----
 
-## [Configuring Sphinx extensions](#configuring-sphinx-extensions)
+## Configuring Sphinx extensions
 
 Sphinx has a lot of extensions that can be used to enhance the documentation. Some of the popular extensions are mentioned in the `requirements_docs.txt` file. You can install them using the following command:
 
@@ -144,7 +141,7 @@ As of now, we installed the required extensions and configured them in the `conf
 
 -----
 
-## [Guide to document Python package](#guide-to-document-python-package)
+## Guide to document Python package
 
 There are different Python docstring style guides which could be used. We will be using the Numpydoc style guide. It's a widely used style guide. You can find the details [here](https://numpydoc.readthedocs.io/en/latest/format.html). The package used for this is `numpydoc`. It's included in the `requirements_docs.txt` file.
 
@@ -156,7 +153,7 @@ You could also see how the function and classed have been documented in the `fan
 -----
 
 
-## [Create documentation modules](#create-documentation-modules)
+## Create documentation modules
 Now, we have completed the basic setup and also Python code is well documented using the Numpydoc style guide. Let's move to the next section to create the module level documentation in the `docs` directory.
 
 By defualt, the `index.rst` file contains the following content:
@@ -268,7 +265,7 @@ Now, let's add Python examples to the documentation. We create an `examples.rst`
 
 We are all set to build the documentation. We will move to the next section to test the documentation locally.
 
-## [Testing documentation locally](#testing-documentation-locally)
+## Testing documentation locally
 You can run the following command to build the documentation locally:
 ```bash
 cd docs
@@ -281,14 +278,14 @@ Goto the `_build` directory and open the `index.html` file in the browser. You w
 Check the html rendered documentation, navigate through the different modules and see if the documentation is rendered correctly. If you see any issues, you can fix them and rebuild the documentation using the above command.
 
 
-## [Setting up Readthedocs](#setting-up-readthedocs)
+## Setting up Readthedocs
 
 We would like to host the documentation on Readthedocs. It's a widely used platform to host the documentation. It's free and open source. You can create an account on Readthedocs and import the repository to host the documentation.
 
-Please use the following steps to host the documentation on [Readthedocs](https://readthedocs.org/):
+Please follow the following steps to create an account on [Readthedocs](https://readthedocs.org/).
 
-### Create .readthedocs.yaml file
-Create a `.readthedocs.yaml` file in the root of the project. It will contain the following content:
+Readthedocs uses the `readthedocs.yml` file to build the documentation. It contains the configuration for the documentation. You can create a `.readthedocs.yml` file in the root of the project. It will contain the following content:
+
 ```yaml
 # .readthedocs.yaml
 # Read the Docs configuration file
@@ -333,16 +330,18 @@ python:
 
 We followed the same approach, now the documentation is hosted on Readthedocs. You can access the documentation using the following link: [fancy_calcy](https://python-package-documentation.readthedocs.io/en/latest/index.html).
 
-## [Automatic deploy documents](#automate-deployment)
+## Automatic deploy documents
 Now, you have hosted the documentation on Readthedocs. Nevertheless, the documents get updated time to time. It's a good practice to automate the deployment of the documentation. You can use the following steps to automate the deployment of the documentation:
 
 You have selected the `main` branch to build the documentation. Therefore, any changes made to the `main` branch will trigger the build of the documentation. You can also select the `tags` to build the documentation. It's up to you.
 
 You are all set to build the documentation for your own Python package. You can use the same approach to document any Python package. You can also use the `fancy_calcy` package as a reference to document your own package.
 
-I hope you find this guide helpful. If you have any questions or suggestions, please feel free to reach out to me. I would be happy to help you.
 
-Thank you for reading!
+## Conclusion
+In this guide, we have covered the steps to create and host documentation for your Python package using Sphinx and Readthedocs. We have also discussed the importance of documentation and the benefits it provides to developers and users.
+
+I hope you find this guide helpful. If you have any questions or suggestions, please feel free to reach out to me. I would be happy to help you. Thank you for reading!
 
 
 

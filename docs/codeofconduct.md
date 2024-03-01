@@ -1,19 +1,29 @@
 # Code of Conduct
 
-- **Purpose**:  The purpose of this Code of Conduct is to establish a welcoming and inclusive community around the DataMender project. We want to foster an environment where everyone feels respected, valued, and able to contribute to the project.
+## Purpose
+The purpose of this Code of Conduct is to outline the expected behavior and guidelines for all contributors and users of the [Project Name] Python package. It is important for all participants to adhere to these guidelines to create a positive and inclusive environment for collaboration.
 
-- **Openness and Respect**: We strive to create an open and respectful community where everyone can freely express their opinions and ideas. We encourage constructive discussions and debates, but we will not tolerate any form of harassment, discrimination, or disrespectful behavior.
+## Expected Behavior
+All contributors and users of the [Project Name] Python package are expected to:
 
-- **Inclusive Language**: We are committed to using inclusive language that reflects the diversity of our community. We avoid using language that could be perceived as offensive, derogatory, or exclusionary towards any individual or group.
+- Be respectful and considerate towards others.
+- Use inclusive language and avoid any form of discriminatory or offensive language or behavior.
+- Be open to constructive feedback and suggestions.
+- Be collaborative and supportive towards other contributors and users.
+- Follow the established coding style and guidelines of the project.
+- Respect the diversity of opinions and perspectives within the community.
 
-- **Collaboration and Support**: We encourage collaboration and support among community members. We value the contributions of all members, regardless of their level of expertise or background. We are here to learn from each other and help each other grow.
+## Unacceptable Behavior
+The following behaviors are considered unacceptable within the [Project Name] Python package community:
 
-- **Reporting and Addressing Issues**: If you witness or experience any violations of this Code of Conduct, please report it to the project maintainers or administrators. All reports will be kept confidential, and appropriate actions will be taken to address the issue. We are committed to resolving conflicts and maintaining a healthy and safe community.
+- Harassment, discrimination, or any form of offensive or disrespectful behavior.
+- Trolling, spamming, or any other disruptive behavior.
+- Engaging in personal attacks or derogatory comments.
+- Violating any applicable laws or regulations.
+- Any other behavior that creates a hostile or unwelcoming environment.
 
-- **Consequences for Violations**: Anyone who engages in behavior that violates this Code of Conduct may be temporarily or permanently banned from participating in the project.
+## Reporting and Enforcement
+If you encounter any violations of this Code of Conduct, please report them to the project maintainers. All reports will be treated confidentially and will be reviewed and addressed promptly. The project maintainers reserve the right to take appropriate actions, including warnings, temporary or permanent bans, or any other measures deemed necessary.
 
-- **Community Guidelines**: In addition to this Code of Conduct, community members are expected to follow any specific guidelines and rules set forth by the project maintainers. These guidelines may include rules regarding contributions, issue reporting, and communication channels.
-
-- **Enforcement**: The project maintainers are responsible for enforcing this Code of Conduct. They have the right and authority to interpret and enforce the rules, and their decisions are final.
-
-Remember, this Code of Conduct applies to all aspects of the project, including but not limited to code contributions, discussions, documentation, and interactions within the community.
+## Attribution
+This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.

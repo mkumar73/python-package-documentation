@@ -28,8 +28,8 @@ def calculate_hypotenuse(base, height):
         If base or height is not a positive number.
 
 
-    Notes
-    -----
+    Note
+    ----
 
     We utilize the Pythagorean theorem to calculate the hypotenuse:
 

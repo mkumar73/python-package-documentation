@@ -7,21 +7,19 @@ class ScientificFunctions:
     """
     A class that provides various scientific functions.
 
+    Note
+    ----
+    Just illustrating how maths equation can be added in the Python docstrings.
 
-    Notes
-    -----
+    - Factorial: 
 
-    Just illustrating how LaTeX can be added in the Python docstrings.
-
-    - Factorial: :math:`n! = \prod_{i=1}^{n} i
-    - Power: :math:`x^y`
-    - Log: 
     .. math::
-       :nowrap:
 
-       \begin{log}
-       y = \log_{10}(x)
-       \end{log}
+        n! = \prod_{i=1}^{n} i = n * (n-1) * (n-2) * \dots * 1
+
+    Where `n` is a non-negative integer.
+
+    - Power: :math:`x^y`
 
 
 

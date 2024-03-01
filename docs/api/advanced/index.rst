@@ -10,7 +10,7 @@ This module provides some basic functionalities for scientific calculations.
 =================================== =========================================================================
  Functions                            Description
 =================================== =========================================================================
-:class:`ScientificFunctions`          Provide class methods for sin, cosine, completex operations etc.
+:class:`ScientificFunctions`          Provide methods for sin, cosine, and operation on complex number etc.
 =================================== =========================================================================
 
 .. toctree::

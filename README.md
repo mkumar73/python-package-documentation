@@ -1,6 +1,6 @@
 # Introduction
 
-This repository share the step by step guide to create and host Python package documentation using Sphinx and Readthedocs.
+This repository contains step by step guide to create and host Python package documentation using Sphinx and Readthedocs.
 
 Topics covered in this guide are:
 
@@ -10,10 +10,11 @@ Topics covered in this guide are:
 - [Create documentation modules](#create-documentation-modules)
 - [Testing documentation locally](#testing-documentation-locally)
 - [Setting up Readthedocs](#setting-up-readthedocs)
-- [Hosting documentation on Readthedocs](#hosting-on-readthedocs)
-- [Automating documentation build on Readthedocs](#automate-deployment)
+- [Automatic deploy documents](#automate-deployment)
 
-I expect that already have a repository with Python package and you want to document it. If not, you can use the sample package provided in this repository. Let's get started.
+I expect that you already have a Python package in a repository for which you would like to added documentation. If not, you could use the `fancy_calcy` [repository](https://github.com/mkumar73/python-package-documentation) to follow along. Please note, the code available in the package is only for the demstration purpose.
+
+Have said that, let's get started.
 
 -----
 
@@ -277,6 +278,69 @@ Goto the `_build` directory and open the `index.html` file in the browser. You w
 
 Check the html rendered documentation, navigate through the different modules and see if the documentation is rendered correctly. If you see any issues, you can fix them and rebuild the documentation using the above command.
 
+
+## [Setting up Readthedocs](#setting-up-readthedocs)
+
+We would like to host the documentation on Readthedocs. It's a widely used platform to host the documentation. It's free and open source. You can create an account on Readthedocs and import the repository to host the documentation.
+
+Please use the following steps to host the documentation on [Readthedocs](https://readthedocs.org/):
+
+### Create .readthedocs.yaml file
+Create a `.readthedocs.yaml` file in the root of the project. It will contain the following content:
+```yaml
+# .readthedocs.yaml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# Required
+version: 2
+
+# Set the OS, Python version and other tools you might need
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.10"
+    # You can also specify other tool versions:
+    # nodejs: "19"
+    # rust: "1.64"
+    # golang: "1.19"
+
+# Build documentation in the "docs/" directory with Sphinx
+sphinx:
+  configuration: docs/conf.py
+
+# Optionally build your docs in additional formats such as PDF and ePub
+formats:
+   - pdf
+#    - epub
+
+# Optional but recommended, declare the Python requirements required
+# to build your documentation
+# See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
+python:
+   install:
+   - requirements: docs/requirements_docs.txt
+```
+
+
+1. Create a Readthedocs account using your GitHub account.
+2. Click on the `Import a Project` button.
+3. Select the repository you would like to import.
+5. Select the `branch` you would like to build the documentation from, generally it's `main`.
+6. Finally `Build the documentation`.
+
+We followed the same approach, now the documentation is hosted on Readthedocs. You can access the documentation using the following link: [fancy_calcy](https://python-package-documentation.readthedocs.io/en/latest/index.html)`
+
+## [Automating documentation build on Readthedocs](#automate-deployment)
+Now, you have hosted the documentation on Readthedocs. Nevertheless, the documents get updated time to time. It's a good practice to automate the deployment of the documentation. You can use the following steps to automate the deployment of the documentation:
+
+You have selected the `main` branch to build the documentation. Therefore, any changes made to the `main` branch will trigger the build of the documentation. You can also select the `tags` to build the documentation. It's up to you.
+
+You are all set to build the documentation for your own Python package. You can use the same approach to document any Python package. You can also use the `fancy_calcy` package as a reference to document your own package.
+
+I hope you find this guide helpful. If you have any questions or suggestions, please feel free to reach out to me. I would be happy to help you.
+
+Thank you for reading!
 
 
 

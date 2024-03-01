@@ -14,12 +14,7 @@ Topics covered in this guide are:
 
 I expect that you already have a Python package in a repository for which you would like to added documentation. If not, you could use the `fancy_calcy` [repository](https://github.com/mkumar73/python-package-documentation) to follow along. 
 
----
-**NOTE**
-
-Please note, the code available in the package is only for the demonstration purpose.
----
-
+**NOTE**: Please note, the code available in the package is only for the demonstration purpose.
 
 Have said that, let's get started.
 

@@ -28,7 +28,7 @@ Sphinx is a tool that makes it easy to create intelligent and beautiful document
 pip install sphinx==6.2.1
 ```
 
-**Note:** It's alwatys a good practice to specify the version of the package you are installing. Otherwise you may end up with a broken build in future.
+**Note:** It's always a good practice to specify the version of the package you are installing. Otherwise you may end up with a broken build in future.
 
 In this guide, we will be using `sphinx==6.2.1`
 
@@ -331,7 +331,7 @@ python:
 5. Select the `branch` you would like to build the documentation from, generally it's `main`.
 6. Finally `Build the documentation`.
 
-We followed the same approach, now the documentation is hosted on Readthedocs. You can access the documentation using the following link: [fancy_calcy](https://python-package-documentation.readthedocs.io/en/latest/index.html)`
+We followed the same approach, now the documentation is hosted on Readthedocs. You can access the documentation using the following link: [fancy_calcy](https://python-package-documentation.readthedocs.io/en/latest/index.html).
 
 ## [Automating documentation build on Readthedocs](#automate-deployment)
 Now, you have hosted the documentation on Readthedocs. Nevertheless, the documents get updated time to time. It's a good practice to automate the deployment of the documentation. You can use the following steps to automate the deployment of the documentation:

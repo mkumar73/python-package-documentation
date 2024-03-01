@@ -30,6 +30,7 @@ class ScientificFunctions:
 
     Examples
     --------
+    >>> from fancy_calcy.advanced import ScientificFunctions
     >>> sf = ScientificFunctions()
     >>> sf.factorial(5)
     120

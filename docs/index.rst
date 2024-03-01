@@ -23,6 +23,14 @@ Welcome to fancy_calcy's documentation!
    installation
 
 .. toctree::
+   :name: Examples
+   :caption: Examples
+   :maxdepth: 1
+   :hidden:
+
+   api/examples
+
+.. toctree::
    :name: API Docs
    :caption: API Docs
    :maxdepth: 1

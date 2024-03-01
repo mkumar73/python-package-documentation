@@ -333,7 +333,7 @@ python:
 
 We followed the same approach, now the documentation is hosted on Readthedocs. You can access the documentation using the following link: [fancy_calcy](https://python-package-documentation.readthedocs.io/en/latest/index.html).
 
-## [Automating documentation build on Readthedocs](#automate-deployment)
+## [Automatic deploy documents](#automate-deployment)
 Now, you have hosted the documentation on Readthedocs. Nevertheless, the documents get updated time to time. It's a good practice to automate the deployment of the documentation. You can use the following steps to automate the deployment of the documentation:
 
 You have selected the `main` branch to build the documentation. Therefore, any changes made to the `main` branch will trigger the build of the documentation. You can also select the `tags` to build the documentation. It's up to you.

@@ -9,10 +9,6 @@ Welcome to fancy_calcy's documentation!
 .. mdinclude:: ../README.md
 
 
-.. note::
-
-   The project aims to provide step by step guide to include Sphinx documentation for a Python package.
-
 
 .. toctree::
    :name: Getting Started
